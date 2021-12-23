@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    cursor: default;
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+    cursor: default;
+}
+
+.img-container img {
+    max-height: 30rem;
+    padding: .125rem .125rem;
+    border: 5px solid #ff3300;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-family: fantasy;
+    margin-bottom: 1.03rem;
+    font-size: xx-large;
+}
